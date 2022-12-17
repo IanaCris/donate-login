@@ -40,7 +40,7 @@ export default function CadastroPage() {
             <TextInput
                 style={styles.form_input}
                 value={nome}
-                placeholder='Nome do Usuario'
+                placeholder='Nome do Usuário'
                 onChangeText={(nome)=>setNome(nome)}
                 autoCorrect={false}
             />

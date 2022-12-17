@@ -12,6 +12,7 @@ export default StyleSheet.create({
         fontWeight: "bold",
         fontSize: 20,
         padding: 15,
+        paddingBottom: 30,
     },
     form_input: {
         backgroundColor: '#fff',
