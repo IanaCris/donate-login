@@ -23,16 +23,24 @@ Emerson Farias
 $ git clone https://github.com/IanaCris/donate-login.git
 ```
 
-<h3 name='api'>📦 Instala as Dependências</h3><br>
+<h3 name='mob'>📱 Rodar projeto no celular</h3><br>
+Para ver o projeto no celular você precisa ter o [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instalado ou um emulador android/ios.
+<br />
+Depois, fork esse repositorio ou clone em sua máquina. Dentro do projeto rode os comandos:
 
 ```bash
-# Vá até a pasta
+# Ir para a pasta
 $ cd donate-login
+
 # Instale as dependências
 $ npm install # ou yarn
-# Executa a aplicação
+
+# Ligue o App
 $ npm run start # ou npm run android
 ```
+Irá abrir uma aba no seu navegador e apacerá um QR Code, se escanear ele no aplicativo Expo, abrirá a aplicação. Terá uma opção para rodar em um emulador também.
+
+Outra forma é executar a aplicação através do emulador do Android Studio.
 
 <h1 name="tecnologias">🛠 Tecnologias</h1>
 
