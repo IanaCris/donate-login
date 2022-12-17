@@ -5,10 +5,11 @@ App mobile de Login e Cadastro de Usuários, usando react native no desenvolvime
 
 Utilizado como atividade na disciplina de Mobile Development na Faculdade Impacta
 
-Componentes do Grupo: 
-- Iana Lima
-- Sara Pereira
-- Emerson Farias
+Componentes do Grupo:
+
+Iana Lima
+Sara Pereira
+Emerson Farias
 
 
 - ### **Pré-requisitos**
@@ -38,5 +39,6 @@ $ npm run start # ou npm run android
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Async Storage](https://react-native-async-storage.github.io/async-storage/docs/usage/)
