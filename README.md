@@ -5,12 +5,12 @@ App mobile de Login e Cadastro de Usuários, usando react native no desenvolvime
 
 Utilizado como atividade na disciplina de Mobile Development na Faculdade Impacta
 
-Componentes do Grupo:
 
-Iana Lima
-Sara Pereira
-Emerson Farias
+- ### **Componentes do Grupo:**
 
+  - Iana Lima
+  - Sara Pereira
+  - Emerson Farias
 
 - ### **Pré-requisitos**
 
