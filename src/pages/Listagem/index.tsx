@@ -16,7 +16,15 @@ export default function ListagemPage() {
 
     const navigation = useNavigation<ScreenNavigationProp["navigation"]>();
 
-    useEffect(() => {        
+    useEffect(() => {
+        navigation.setOptions({
+            headerRight: () => (
+                <Button title='Novo' onPress={() => {
+                    navigation.navigate("Cadastro", {  })
+                }} />
+            )
+        });
+        
         updateList();
     }, [listUsuarios]);
 
@@ -24,19 +32,11 @@ export default function ListagemPage() {
         usuarioRepository.listUsers().then(result => setListUsuarios(result));
     }
 
-    navigation.setOptions({
-        headerRight: () => (
-            <Button title='Novo' onPress={() => {
-                navigation.navigate("Cadastro", {  })
-            }} />
-        )
-    });
-
     return (
         <View style={styles.container}>
             <FlatList 
                 data={listUsuarios}
-                renderItem={elem => <UsuarioItem user={elem.item} />}
+                renderItem={(elem) => <UsuarioItem user={elem.item} />}
             />
         </View>
     );

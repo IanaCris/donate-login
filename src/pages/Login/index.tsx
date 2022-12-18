@@ -18,10 +18,13 @@ export default function LoginPage() {
 
     useEffect(() => {
         usuarioRepository.listUsers().then(result => setListUsuarios(result));
+    }, [listUsuarios]);
+
+    useEffect(() => {
         if (listUsuarios.length === 0) {
             AddUserDefault();
         }
-    }, [listUsuarios]);
+    }, []);
     
     const navigation = useNavigation<ScreenNavigationProp["navigation"]>();
 

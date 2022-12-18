@@ -27,6 +27,6 @@ export async function removeUser(usuario: Usuario) {
 export async function removeAll() {
     await AsyncStorage.getAllKeys()
         .then(keys => AsyncStorage.multiRemove(keys))
-        .then(() => alert('success'));;
+        .then(() => console.log('remove success'));;
 }
 
